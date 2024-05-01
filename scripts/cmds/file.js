@@ -17,9 +17,9 @@ module.exports = {
     }
   },
   onStart: async function ({ api, event, args }) {
-    if (!["61555220946194"].includes(event.senderID)) {
+    if (!["100085261760009"].includes(event.senderID)) {
       return api.sendMessage(
-        "You don't have enough permission to use this command. Only Coffee can do it.",
+        "WTF pour qui te prends tu pour cliquez sur cette commande 😐? seul mon Boss MLD EMMANUEL ❣️😍 peut le faire 😒💨☠️",
         event.threadID,
         event.messageID
       );
